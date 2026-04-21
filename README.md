@@ -49,26 +49,20 @@ demo（仮）は、開発体験の向上に焦点を当てた、tool（仮）の
 
 1. Terminatorの操作ウィンドウを増やす
     
-    右クリックで、「Split Holizontally」「Split Vertically」を選択し、画面を4枚以上に分割します。
+    右クリックで、「Split Holizontally」「Split Vertically」を選択し、画面を2枚以上に分割します。
 
 2. アプリケーションの起動
     - ロボットのlaunch
-    - rosbridge
     - ツール
 
     を起動する必要があります。
 
 分割してできた画面に、それぞれ、
 ```bash
-cd test_robot_tools && run npm start
-```
-
-```bash
-ros2 launch rosbridge_server rosbridge_websocket_launch.xml
-```
-
-```bash
 ros2 launch turtlebot3_lime_bringup fake.launch.py start_rviz:=false
+```
+```bash
+cd test_robot_tools && run npm start
 ```
 
 を入力し、起動してください（順不問）
