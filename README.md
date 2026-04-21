@@ -68,7 +68,7 @@ ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 
 ```bash
-ros2 launch turtlebot3_lime_bringup fake.launch.py 
+ros2 launch turtlebot3_lime_bringup fake.launch.py start_rviz:=false
 ```
 
 を入力し、起動してください（順不問）
