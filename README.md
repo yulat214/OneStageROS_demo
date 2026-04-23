@@ -1,6 +1,6 @@
-# demo（仮）
+# OneStageROS_demo
 
-demo（仮）は、開発体験の向上に焦点を当てた、tool（仮）のためのデモ環境です。
+OneStageROS_demoは、開発体験の向上に焦点を当てた、OneStageROSのためのデモ環境です。
 
 本デモはDocker環境として提供され、サンプルのロボットモデル、周辺パッケージのセットアップ、およびビルドプロセスが完了している状態です。
 ローカルPCの環境を汚すことなく、煩雑な依存関係の解決に時間を取られずに、すぐに本質的な機能の検証や開発のスタートダッシュを切ることができます。
@@ -24,8 +24,8 @@ demo（仮）は、開発体験の向上に焦点を当てた、tool（仮）の
 
 1. リポジトリのクローン
    ```bash
-   https://github.com/yulat214/demo_environment.git
-   cd demo_environment
+   https://github.com/yulat214/OneStageROS_demo.git
+   cd OneStageROS_demo
    ```
 
 2. イメージのビルドと起動
@@ -41,7 +41,7 @@ demo（仮）は、開発体験の向上に焦点を当てた、tool（仮）の
 ## コンテナ内のファイル構成
 ```bash
 /root
-    ├── test_robot_tools # 提供ツール
+    ├── OneStageROS # 提供ツール
     └── turtlebot3_ws # サンプルのロボット情報
 ```
 
@@ -89,5 +89,7 @@ docker start tools_demoenv
 
 画面が立ち上がったら、以下の操作を試すことができます。
 
-* [デモ操作1: 例 - ロボットの移動]: [操作方法の簡単な説明]
-* [デモ操作2: 例 - 把持の実行]: [操作方法の簡単な説明]
+* ロボットの移動
+* アーム操作
+* コード編集
+* オブジェクトの配置・削除・保存・読込
