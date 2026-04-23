@@ -1,6 +1,7 @@
 # OneStageROS_demo
 
 OneStageROS_demoは、開発体験の向上に焦点を当てた、OneStageROSのためのデモ環境です。
+OneStageROSは[こちら](https://github.com/yulat214/OneStageROS)にて提供しています。
 
 本デモはDocker環境として提供され、サンプルのロボットモデル、周辺パッケージのセットアップ、およびビルドプロセスが完了している状態です。
 ローカルPCの環境を汚すことなく、煩雑な依存関係の解決に時間を取られずに、すぐに本質的な機能の検証や開発のスタートダッシュを切ることができます。
