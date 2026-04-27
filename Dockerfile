@@ -51,9 +51,9 @@ WORKDIR ${WORKSPACE}
 RUN source /opt/ros/${ROS_DISTRO}/setup.bash && colcon build --symlink-install
 
 WORKDIR /root
-RUN git clone https://github.com/yulat214/test_robot_tools.git
+RUN git clone https://github.com/yulat214/OneStageROS.git
 
-WORKDIR /root/test_robot_tools
+WORKDIR /root/OneStageROS
 RUN npm install
 
 # .bashrc への追記
