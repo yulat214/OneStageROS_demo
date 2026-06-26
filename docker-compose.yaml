@@ -5,12 +5,13 @@ services:
     build: .
     image: tools-demo-env:latest
     container_name: tools_demoenv
-    network_mode: host
     ipc: host
+    ports:
+      - "3000:3000"
+      - "8080:8080"
+      - "9090:9090"
     environment:
       - DISPLAY=${DISPLAY}
-    devices:
-      - /dev/dri:/dev/dri
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
     command: terminator
