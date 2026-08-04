@@ -20,6 +20,9 @@ OneStageROSは[こちら](https://github.com/yulat214/OneStageROS)にて提供�
 * Docker
 * Docker Compose
 
+Windowsを使用されている方は、port設定の関係で、for_windows branchをご使用ください。
+手順は変わりません。
+
 > 注意: GUIアプリケーションの起動について
 > 本デモでは、コンテナ起動時に画面分割用のターミナル（Terminator）が立ち上がります。
 > * **Ubuntu / Windows 11 (WSLg)**: 基本的にはそのままGUIが起動します。
