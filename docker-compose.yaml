@@ -10,6 +10,7 @@ services:
       - "3000:3000"
       - "8000:8000"
       - "9090:9090"
+      - "9091:9091"
     environment:
       - DISPLAY=${DISPLAY}
     volumes:
